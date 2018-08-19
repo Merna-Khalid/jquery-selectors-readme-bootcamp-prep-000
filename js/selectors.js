@@ -10,3 +10,11 @@ function lastImageSelector() {
 function ninjaBabySelector() {
   return $("img['ninja baby']")
 }
+
+function divSelector() {
+  return $('div')
+}
+
+function firstListItem() {
+  return $('ul li:first-child')
+}
